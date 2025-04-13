@@ -10,7 +10,7 @@ function App() {
   const [activeSection, setActiveSection] = useState("about");
 
   return (
-    <div className="min-h-screen bg-[url('/images/wallpaper.webp')] bg-cover bg-center bg-fixed text-white">
+    <div className="min-h-screen bg-[url('/images/wallpaper.webp')] bg-cover bg-center bg-fixed">
       <header>
         <h1 className="font-montserrat font-bold text-4xl flex justify-center flex-wrap">My Portfolio</h1>
       </header>
@@ -23,7 +23,7 @@ function App() {
         <button onClick={() => setActiveSection("contact")} className='btn'>Contact</button>
       </nav>
 
-      <main className="max-w-4xl mx-auto px-4">
+      <main className="content">
         {activeSection === "about" && <AboutMe />}
         {activeSection === "education" && <Education />}
         {activeSection === "experience" && <Experience />}

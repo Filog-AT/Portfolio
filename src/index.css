@@ -27,14 +27,25 @@ h2{
   font-size: 30px;
 }
 
+.content{
+padding-left: 10%;
+padding-right: 10%; 
+max-width: 100%; 
+}
+
+.row{
+  display: flex;
+  flex-direction: row;
+  grid-template-columns: repeat(5, 1fr);
+  align-items: center;
+}
+
 .am{
   margin-top: 1rem; 
   font-size: 1.125rem;
   line-height: 1.75rem; 
   line-height: 1.625; 
   border-radius: 20px;
-  padding: 10px;
-  margin: 10px;
 }
 
 .educ{
@@ -55,11 +66,10 @@ h2{
 }
 
 .leftme{
-  float:inline-start;
-  width: 30%;
-  padding: 5px;
-  height: auto;
+    grid-column: span 2 / span 2;
+    justify-content: start;
 }
+
 
 .appnav{
   display: flex; 
@@ -71,10 +81,8 @@ h2{
 }
 
 .rightam1{
-  float: left;
-  width: 70%;
-  padding: 10px;
-  height: 300px;
+  grid-column: span 3 / span 3;
+  grid-column-start: 3;
 }
 
 .skill-badge {

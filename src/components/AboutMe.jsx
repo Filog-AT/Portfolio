@@ -2,11 +2,11 @@ import React from 'react';
 
 function AboutMe() {
   return (
-    <section>
+    <div>
       <h2 className="text-4xl font-bold mb-4">About Me</h2>
       <div className='row'>
         <div className='leftme'>
-          <img src="/images/me.jpg" alt=""/>
+          <img src="/images/me.jpg" alt="" className='img'/>
         </div>
 
         <div className='am1'>
@@ -24,7 +24,7 @@ function AboutMe() {
           </p>
         </div>
       </div>
-    </section>
+    </div>
   );
 };
 
