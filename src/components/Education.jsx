@@ -10,8 +10,8 @@ function Education() {
         <h3>University of the Cordilleras</h3>
         <p>Baguio City | 2023 – Present</p>
         <p>
-          Currently pursuing a degree in <span className="font-medium">Bachelor of Science in Network and Security</span>. 
-          Focused on cybersecurity fundamentals, network infrastructure, ethical hacking, and systems security. Actively involved in hands-on labs and simulation environments.
+          Currently pursuing a degree in <span className="font-medium">Bachelor of Science in Information Technology Major in Network and Security</span>. 
+          Focused networking, network infrastructure, and systems security. Actively involved in hands-on labs and simulation environments.
         </p>
       </div>
       <br />

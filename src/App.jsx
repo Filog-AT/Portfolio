@@ -12,7 +12,7 @@ function App() {
   return (
     <div className="min-h-screen bg-[url('/images/wallpaper.webp')] bg-cover bg-center bg-fixed">
       <header>
-        <h1 className="font-montserrat font-bold text-4xl flex justify-center flex-wrap">My Portfolio</h1>
+        <h1 className="font-montserrat font-bold text-4xl flex justify-center flex-wrap text-amber-500">My Portfolio</h1>
       </header>
 
       <nav className="appnav">

@@ -6,7 +6,7 @@ function AboutMe() {
       <h2 className="text-4xl font-bold mb-4">About Me</h2>
       <div className='row'>
         <div className='leftme'>
-          <img src="/images/me.jpg" alt="" className='img'/>
+          <img src="/images/me.png" alt="" className='img'/>
         </div>
 
         <div className='am1'>
