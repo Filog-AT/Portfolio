@@ -7,28 +7,53 @@ import Experience from './components/Experience'
 import Skills from './components/Skills'
 
 function App() {
-  const [activeSection, setActiveSection] = useState("about");
+  const [activeButton, setActiveButton] = useState("about");
 
   return (
-    <div className="min-h-screen bg-[url('/images/wallpaper.webp')] bg-cover bg-center bg-fixed brightness-100">
+<div className="min-h-screen bg-[url('/images/wallpaper.webp')] bg-cover bg-center bg-fixed brightness-100">
       <header>
         <h1 className="font-montserrat font-bold text-4xl flex justify-center flex-wrap text-amber-500">My Portfolio</h1>
       </header>
 
-      <nav className="appnav">
-        <button onClick={() => setActiveSection("about")} className='btn'>About Me</button>
-        <button onClick={() => setActiveSection("education")} className='btn'>Education</button>
-        <button onClick={() => setActiveSection("experience")} className='btn'>Experience</button>
-        <button onClick={() => setActiveSection("skills")} className='btn'>Skills</button>
-        <button onClick={() => setActiveSection("contact")} className='btn'>Contact</button>
+      <nav className="appnav flex justify-center gap-4 my-4">
+        <button 
+          onClick={() => setActiveButton("about")} 
+          className={`btn transition-transform duration-300 ${activeButton === "about" ? "scale-100" : "scale-75"}`}
+        >
+          About Me
+        </button>
+        <button 
+          onClick={() => setActiveButton("education")} 
+          className={`btn transition-transform duration-300 ${activeButton === "education" ? "scale-100" : "scale-75"}`}
+        >
+          Education
+        </button>
+        <button 
+          onClick={() => setActiveButton("experience")} 
+          className={`btn transition-transform duration-300 ${activeButton === "experience" ? "scale-100" : "scale-75"}`}
+        >
+          Experience
+        </button>
+        <button 
+          onClick={() => setActiveButton("skills")} 
+          className={`btn transition-transform duration-300 ${activeButton === "skills" ? "scale-100" : "scale-75"}`}
+        >
+          Skills
+        </button>
+        <button 
+          onClick={() => setActiveButton("contact")} 
+          className={`btn transition-transform duration-300 ${activeButton === "contact" ? "scale-100" : "scale-75"}`}
+        >
+          Contact
+        </button>
       </nav>
 
       <main className="content">
-        {activeSection === "about" && <AboutMe />}
-        {activeSection === "education" && <Education />}
-        {activeSection === "experience" && <Experience />}
-        {activeSection === "skills" && <Skills />}
-        {activeSection === "contact" && <Contact />}
+        {activeButton === "about" && <AboutMe />}
+        {activeButton === "education" && <Education />}
+        {activeButton === "experience" && <Experience />}
+        {activeButton === "skills" && <Skills />}
+        {activeButton === "contact" && <Contact />}
       </main>
     </div>
   );
