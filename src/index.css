@@ -17,7 +17,7 @@ p{
 }
 
 h2{
-  color: rgb(45, 6, 90);
+  color: rgb(20, 146, 125);
   text-align:center ;
   font-family: "Roboto", sans-serif;
   font-optical-sizing: auto;
@@ -35,41 +35,49 @@ max-width: 100%;
 
 .row{
   display: flex;
+  gap: 10px;
   flex-direction: row;
-  grid-template-columns: repeat(5, 1fr);
-  align-items: center;
 }
 
-.am{
-  margin-top: 1rem; 
+.row2{
   font-size: 1.125rem;
-  line-height: 1.75rem; 
-  line-height: 1.625; 
-  border-radius: 20px;
+  border-radius: 40px;
+  background-color: rgba(255, 248, 248, 0.486);
+  padding: 20px;
+  margin-inline: auto;
 }
 
 .educ{
   text-align: center;
-  @apply max-w-3xl mx-auto;
+  margin-inline: auto; 
+  max-width: 725px;
 }
 
 .sc h3{
   font-size: 25px;
-  color: rgb(39, 3, 80);
+  color: rgb(63, 5, 129);
 }
 
 .sc1{
   padding: 10px;
   margin: -5px;
-  background-color: rgba(122, 122, 122, 0.74);
+  background-color: rgba(255, 248, 248, 0.432);
   border-radius: 40px;
 }
 
-.leftme{
+.row1{
     grid-column: span 2 / span 2;
     justify-content: start;
 }
 
+.experience{
+  text-align: center;
+  background-color: rgba(255, 248, 248, 0.432);
+  padding: 10px;
+  border-radius: 40px;
+  margin-inline: auto; 
+  max-width: 500px;
+}
 
 .appnav{
   display: flex; 
@@ -78,11 +86,6 @@ max-width: 100%;
   flex-wrap: wrap; 
   gap: 1rem; 
   justify-content: center; 
-}
-
-.rightam1{
-  grid-column: span 3 / span 3;
-  grid-column-start: 3;
 }
 
 .skill-badge {

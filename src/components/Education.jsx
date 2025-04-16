@@ -3,7 +3,7 @@ import React from 'react'
 function Education() {
   return (
   <div className="educ">
-    <h2 className="text-3xl font-bold mb-6">Education</h2>
+    <h2 className="text-3xl font-bold mb-6 ">Education</h2>
 
     <div className="sc">
       <div className='sc1'>

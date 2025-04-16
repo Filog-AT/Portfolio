@@ -4,7 +4,7 @@ function Contact() {
   return (
     <div className="max-w-xl mx-auto text-center">
     <h2 className="text-3xl font-bold mb-4">Contact</h2>
-    <p className="mb-6 text-lg">
+    <p className="mb-6 text-lg ">
       Interested in connecting? Feel free to reach out to me through any of the platforms below!
     </p>
 
