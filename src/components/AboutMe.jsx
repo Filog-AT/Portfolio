@@ -5,10 +5,6 @@ function AboutMe() {
     <div>
       <h2 className="text-4xl font-bold mb-4">About Me</h2>
       <div className='row'>
-        <div className='row1'>
-          <img src="/images/me.png" alt="" className='img'/>
-        </div>
-
         <div className='row2'>
           <p className="am">
             Hi, I'm <span className="font-semibold">Abdul Travis N. Filog</span>, a 20-year-old student currently pursuing a degree in <span className="font-semibold">Network and Security</span> at the <span className="font-semibold">University of the Cordilleras</span>. 

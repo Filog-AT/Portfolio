@@ -10,7 +10,7 @@ function App() {
   const [activeButton, setActiveButton] = useState("about");
 
   return (
-<div className="min-h-screen bg-[url('/images/wallpaper.webp')] bg-cover bg-center bg-fixed brightness-100">
+<div className="min-h-screen bg-[url('/images/wallpaper1.jpg')] bg-cover bg-center bg-fixed brightness-100">
       <header>
         <h1 className="font-montserrat font-bold text-4xl flex justify-center flex-wrap text-amber-500">My Portfolio</h1>
       </header>
