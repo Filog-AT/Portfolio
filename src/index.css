@@ -99,6 +99,27 @@ max-width: 100%;
 
 }
 
+.link{
+  padding: 20px;
+  background-color: rgba(255, 248, 248, 0.432);
+  color: rgb(132, 0, 255);
+  margin-inline: auto; 
+  width: 300px;
+  border-radius: 55px;
+  transition-duration: 0.5s;
+}
+
+.link:hover{
+  color: rgb(251, 255, 0);
+  background-color: rgb(74, 21, 122);
+  border-top: 2px solid blueviolet;
+  border-left: 2px solid blueviolet;
+  border-bottom: 2px solid rgb(238, 103, 238);
+  border-right: 2px solid rgb(238, 103, 238);
+  box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px,
+    rgba(240, 46, 170, 0.2) 15px 15px;
+}
+
 .btn {
   padding: 1rem 2rem;
   font-weight: 700;

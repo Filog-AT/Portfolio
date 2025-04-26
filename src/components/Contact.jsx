@@ -8,7 +8,7 @@ function Contact() {
       Interested in connecting? Feel free to reach out to me through any of the platforms below!
     </p>
 
-    <div className="flex flex-col gap-4 items-center">
+    <div className="flex flex-col gap-4 items-center" id='contact'>
       <a href="mailto:filogabdultravis@gmail.com" className="link">
         📧 filogabdultravis@gmail.com
       </a>
